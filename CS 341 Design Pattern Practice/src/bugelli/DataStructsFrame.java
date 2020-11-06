@@ -14,9 +14,6 @@ import javax.swing.JPanel;
 
 public class DataStructsFrame extends JFrame {
 	
-	
-	
-	
 	public DataStructsFrame(String title, Integer[] numbers, Integer[] mine) {
 		super(title);
 
