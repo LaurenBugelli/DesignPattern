@@ -1,8 +1,5 @@
 package bugelli;
-import java.awt.Component;
 import java.util.ArrayList;
-import java.util.Arrays;
-
 import javax.swing.BorderFactory;
 import javax.swing.JLabel;
 import javax.swing.JPanel;

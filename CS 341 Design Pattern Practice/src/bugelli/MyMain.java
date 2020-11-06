@@ -21,10 +21,6 @@ package bugelli;
  *    
  */
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-
 public class MyMain {
 	public static void main(String[] args) {
 		Integer[] array = {25, 37, 12, 8, -5};

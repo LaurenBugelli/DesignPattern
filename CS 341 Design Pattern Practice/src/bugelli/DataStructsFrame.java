@@ -43,11 +43,24 @@ public class DataStructsFrame extends JFrame {
 				pack();
 			}
 		});
+		
+		
+		JButton sortButton2 = new JButton("Add Your Own Values");
+		sortButton2.setSize(30, 10);
+		sortButton2.setAlignmentX(LEFT_ALIGNMENT);
 
+		sortButton2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent ae) {
+				
+			}
+		});
+		
+		panel.add(sortButton2);
 		panel.add(unorderedList);
 		panel.add(sortButton);
 		add(panel);
 
+		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		pack();
 		setVisible(true);
