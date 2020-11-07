@@ -11,7 +11,6 @@ public class ListPanel extends JPanel {
 	public Integer[] allnumbers;
 	public ListPanel(String title) {
 		super();
-		//mList = new ArrayList<ListItem>();
 		setBorder(BorderFactory.createTitledBorder(BorderFactory.createBevelBorder(BevelBorder.LOWERED), title));
 	}
 
